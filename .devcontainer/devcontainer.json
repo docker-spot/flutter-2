@@ -9,6 +9,6 @@
   },
   "runArgs": ["--privileged"],
   "extensions": ["dart-code.flutter"],
-  "workspaceMount": "source=${localWorkspaceFolder}/src,target=/home/developer/workspace,type=bind,consistency=delegated",
+  "workspaceMount": "source=${localWorkspaceFolder}/workspace,target=/home/developer/workspace,type=bind,consistency=delegated",
   "workspaceFolder": "/home/developer/workspace"
 }

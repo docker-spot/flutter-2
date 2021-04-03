@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # installing dependencies
-RUN apt-get update && apt-get install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
+RUN apt-get update && apt-get install -y curl git libglu1-mesa openjdk-8-jdk unzip usbutils xz-utils wget zip
 
 # set up new user
 RUN useradd -ms /bin/bash developer
