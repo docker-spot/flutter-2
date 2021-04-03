@@ -4,7 +4,7 @@ You can use this in two ways either by command line or by VS Code extension.
 
 ## Assumption
 
-I am using that you are familiar with,
+I am assuming that you are familiar with,
 
 - Docker
 
